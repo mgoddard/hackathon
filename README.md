@@ -49,3 +49,26 @@ cockroach start --insecure --listen-addr=localhost:26260 \
   --http-addr=localhost:8083 --store=cockroach-data-4 --background
 ```
 
+## CockroachDB Geo Tourist demo
+
+[Link to GitHub repo](https://github.com/cockroachlabs-field/crdb-geo-tourist#cockroachdb-geo-tourist)
+
+## Serializable Isolation
+
+[Hands on demo](https://www.cockroachlabs.com/docs/stable/demo-serializable.html)
+
+[StackOverflow discussion](https://stackoverflow.com/questions/60339223/node-js-transaction-coflicts-in-postgresql-optimistic-concurrency-control-and) of adding support for retries
+
+## TypeORM
+
+[Installation and Quick Start](https://typeorm.io/#/)
+
+## Ideas for Next Steps
+
+* Continue with the “Step-by-Step Guide” section of the [TypeORM guide](https://typeorm.io/#/)
+* Review the [`AS OF SYSTEM TIME` clause](https://www.cockroachlabs.com/docs/stable/as-of-system-time.html)
+* Add AOST to TypeORM -- see [this GitHub issue](https://github.com/typeorm/typeorm/issues/4646)
+* Explore multi-region capabilities with the help of [this demo](https://github.com/chriscasano/multi-region-dad-jokes)
+* Explore any of several interesting topics available at [this jumping off point](https://github.com/cockroachlabs/workshop_labs)
+* Make the [_Geo Tourist_ demo](https://github.com/cockroachlabs-field/crdb-geo-tourist) more interesting
+
