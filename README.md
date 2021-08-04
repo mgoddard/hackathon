@@ -2,6 +2,8 @@
 
 Supporting code, links, docs
 
+[Slide deck (PDF)](./Hackathon_Build_with_CockroachDB.pdf)
+
 ## Install and Run CockroachDB
 
 ### Install Homebrew
